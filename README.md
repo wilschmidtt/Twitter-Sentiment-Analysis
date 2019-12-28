@@ -1,18 +1,18 @@
 # Twitter-Sentiment-Analysis
 ![What](Images/header_art.png)
 
-Type in a username or hashtag, specify the amount of tweets that you want to include in the sentiment analysis, and view the sentiment, most liked/retweeted tweets, and a time series analysis of likes/retweets for the username/hashtag. Three dataframes will also be returned that you can use as desired. The one titled 'tweet_df' includes tweet content, # of likes, # of retweets, date posted, source, source url, Tweet length, and Tweet ID. The one titled 'sort_by_likes' contains all of the same information except the tweets are sorted in descending order by number of likes. The one titled 'sort_by_retweets' contains all of the same information as well except the tweets are sorted in descending order by number of retweets. 
+Type in a username or hashtag, specify the amount of tweets that you want to include in the sentiment analysis, and view the sentiment by percentage, most liked/retweeted tweets, and a time series analysis of likes/retweets for the username/hashtag. Three dataframes will also be returned that you can use as desired. The one titled 'tweet_df' includes tweet content, # of likes, # of retweets, date posted, source, source url, Tweet length, and Tweet ID. The one titled 'sort_by_likes' contains all of the same information except the tweets are sorted in descending order by number of likes. The one titled 'sort_by_retweets' contains all of the same information as well except the tweets are sorted in descending order by number of retweets. 
 ### Prerequisites
 * Anaconda (Python 3.7 Version)
   - [Anaconda Instillation Instructions](https://docs.anaconda.com/anaconda/install/)
-    - You can used a differ Python environment if desired, but Anaconda and Spyder were used to create this program
+    - You can used a differt Python environment if desired, but Anaconda and Spyder were used to create this program
 * Create a Twitter account, new app, and obtain keys/access tokens
   - [How to use the Twitter API - Instructions](https://rapidapi.com/blog/how-to-use-the-twitter-api/)
 ### Libraries to Install
 * matplotlib - plotting library for NumPy
   - `conda install -c conda-forge matplotlib`
 * pandas - software library for data manipulation and analysis
-  - `conda install -c anaconda pandas``
+  - `conda install -c anaconda pandas`
 * numpy - general-purpose array-processing package
   - `conda install -c anaconda numpy`
 
