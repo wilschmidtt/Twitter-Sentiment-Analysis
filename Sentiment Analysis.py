@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 
 from textblob import TextBlob # Library for processing textual data. Provides a simple API for diving into common NLP tasks, like POS tagging
 import sys, tweepy, csv, re # Tweepy allows python to communicate with Twitter and use its API. csv allows you to parse csv files. re allows you to search for regular expressions within a string
