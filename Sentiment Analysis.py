@@ -1,13 +1,15 @@
+
+
 from textblob import TextBlob # Library for processing textual data. Provides a simple API for diving into common NLP tasks, like POS tagging
 import sys, tweepy, csv, re # Tweepy allows python to communicate with Twitter and use its API. csv allows you to parse csv files. re allows you to search for regular expressions within a string
 import matplotlib.pyplot as plt # Plotting library for Python. .pyplot allows matplotlib to work like MATLAB
 import numpy as np
 import pandas as pd
 
-consumerKey = "GATSyP3meSKu4HNBp9KyuNYx0"
-consumerSecret = "tWUVKhywPc7HuNZOb624gnMgnR0lajxpmXuxtziCH3nPGgF8dD"
-accessToken = "2214718130-Pcw1gHTaW6RBWeye3Rnj72nx0EfGcWPe3UxJlhJ"
-accessTokenSecret = "5d1IfC72qtyWpwRbe8RWXkH5sRpDjhHg5SV3zAPl5veI5"
+consumerKey = # upload yours here
+consumerSecret = # upload yours here
+accessToken = # upload yours here
+accessTokenSecret = # upload yours here
 
 class Sentiment:
 
@@ -45,7 +47,7 @@ class Sentiment:
             global search_term
             search_term = input("Enter username that you would like to analyze (don't include the @): ")
         else: 
-            search_term = input("Enter the hashtage that you would like to analyze (don't include the #): ")
+            search_term = input("Enter the hashtag that you would like to analyze (don't include the #): ")
         global tweet_count
         tweet_count = input("How many tweets would you like to analize? ")
         loop = True
