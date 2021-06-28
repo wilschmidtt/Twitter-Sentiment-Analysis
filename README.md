@@ -1,6 +1,4 @@
 # Twitter-Sentiment-Analysis
-![What](Images/header_art.png)
-
 Type in a username or hashtag, specify the amount of tweets that you want to include in the sentiment analysis, and view the sentiment by percentage, most liked/retweeted tweets, and a time series analysis of likes/retweets for the username/hashtag. Three dataframes will also be returned that you can use as desired. The one titled 'tweet_df' includes tweet content, # of likes, # of retweets, date posted, source, source url, Tweet length, and Tweet ID. The one titled 'sort_by_likes' contains all of the same information except the tweets are sorted in descending order by number of likes. The one titled 'sort_by_retweets' contains all of the same information as well except the tweets are sorted in descending order by number of retweets. 
 
 ### Prerequisites
