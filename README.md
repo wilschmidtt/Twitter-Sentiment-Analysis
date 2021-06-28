@@ -30,4 +30,4 @@ Type in a username or hashtag, specify the amount of tweets that you want to inc
 
 ## Authors
 
-* **William Schmidt** - [LikedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
+* **William Schmidt** - [LinkedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
