@@ -24,8 +24,3 @@ Type in a username or hashtag, specify the amount of tweets that you want to inc
 ![What](Images/tweets_dataframe.png)
 * Feel free to search for more usernames/hashtags, vary the amount of tweets incorperated in the dataframe, and use the dataframes to
   see if you can draw any conclusions from the Tweets!
-
-
-## Authors
-
-* **William Schmidt** - [LinkedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
